@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Profile Page</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Noorish's Profile</h1>
+    </header>
+
+    <div>
+      <img
+        height="100px"
+        src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      />
+      <h2>About Me</h2>
+      <p>Hi, I’m Noorish. I love learning new things.</p>
+
+      <ul type="square">
+        <li>one</li>
+        <li>two</li>
+      </ul>
+
+      <h2>Education</h2>
+      <p>Undergraduate studies</p>
+    </div>
+
+    <div>
+      <table cellspacing="5px" width="500px" height="500px" border="5px">
+        <tr>
+          <th rowspan="2">Heading</th>
+          <th>Student</th>
+          <th colspan="3">Details</th>
+        </tr>
+        <tr>
+          <th>ID</th>
+          <th>NAME</th>
+          <th>DEPARTMENT</th>
+          <th>ROLLNO</th>
+        </tr>
+        <tr>
+          <th rowspan="4">Student List</th>
+          <td>1</td>
+          <td>x</td>
+          <td>d1</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>y</td>
+          <td>d2</td>
+          <td>13</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>z</td>
+          <td>d3</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>h</td>
+          <td>d4</td>
+          <td>15</td>
+        </tr>
+      </table>
+    </div>
+
+    <div style="background-color: purple" width="20px">
+      <form action="formResult.html">
+        <label>Username:</label><br />
+        <input type="text" placeholder="Firstname" />
+        <input type="text" placeholder="Lastname" /><br /><br />
+
+        <label>Email:</label><br />
+        <input type="email" /><br /><br />
+
+        <label>Phone Number:</label><br />
+        <input type="number" placeholder="####" /><br /><br />
+
+        <label>What position are you applying for?</label><br />
+        <select>
+          <option value="SE">Software Engineer</option>
+          <option value="SSE">Senior Software Engineer</option>
+          <option value="BA">Business Analyst</option></select
+        ><br /><br />
+
+        <label>Available Start Date:</label><br />
+        <input type="date" /><br /><br />
+
+        <label>What is your current position?</label><br />
+        <input type="radio" name="currentPosition" value="student" />
+        Student<br />
+        <input type="radio" name="currentPosition" value="intern" />
+        Intern<br />
+        <input type="radio" name="currentPosition" value="junior" /> Junior
+        Developer<br />
+        <input type="radio" name="currentPosition" value="senior" /> Senior
+        Developer<br /><br />
+
+        <label>Upload your resume:</label><br />
+        <input type="file" /><br /><br />
+
+        <label>Verification:</label><br />
+        <div id="verify" style="background-color: white; padding: 5px">
+          <p>I am not a robot</p>
+          <input type="checkbox" />
+        </div>
+        <br />
+
+        <input type="submit" value="Submit Application" />
+      </form>
+    </div>
+    <footer>
+      <p>Noorish</p>
+    </footer>
+  </body>
+</html>
