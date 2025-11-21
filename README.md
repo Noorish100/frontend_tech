@@ -1,2 +1,2 @@
-# frontend_stuff
+# frontend Technologies
 Created with CodeSandbox
