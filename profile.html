@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Profile Page</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
@@ -14,7 +15,7 @@
         height="100px"
         src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
       />
-      <h2>About Me</h2>
+      <h2 id="tab">About Me</h2>
       <p>Hi, I’m Noorish. I love learning new things.</p>
 
       <ul type="square">
@@ -67,8 +68,9 @@
       </table>
     </div>
 
-    <div style="background-color: purple" width="20px">
-      <form action="formResult.html">
+    <div class="formdiv">
+      <h2>Registartion Form</h2>
+      <form class="form" action="formResult.html">
         <label>Username:</label><br />
         <input type="text" placeholder="Firstname" />
         <input type="text" placeholder="Lastname" /><br /><br />
@@ -108,8 +110,8 @@
           <input type="checkbox" />
         </div>
         <br />
-
         <input type="submit" value="Submit Application" />
+        <a href="#tab">About ME</a>
       </form>
     </div>
     <footer>
